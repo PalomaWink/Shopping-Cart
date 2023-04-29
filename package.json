@@ -4,7 +4,8 @@
   "description": "Dynamic shopping cart using Mercado Libre API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --open",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/PalomaWink/Shopping-Cart/issues"
   },
-  "homepage": "https://github.com/PalomaWink/Shopping-Cart#readme"
+  "homepage": "https://github.com/PalomaWink/Shopping-Cart#readme",
+  "devDependencies": {
+    "eslint": "^8.39.0"
+  }
 }
