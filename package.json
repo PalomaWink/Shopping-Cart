@@ -20,5 +20,8 @@
   "homepage": "https://github.com/PalomaWink/Shopping-Cart#readme",
   "devDependencies": {
     "eslint": "^8.39.0"
+  },
+  "dependencies": {
+    "vite": "^4.3.3"
   }
 }
